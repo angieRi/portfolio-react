@@ -6,4 +6,4 @@ function Example(){
 }
 
 export default Example;
-ReactDom.render(<Example />, document.getElementById("example"));
+ReactDom.render(<Example />, document.getElementById("root"));
