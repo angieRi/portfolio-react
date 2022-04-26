@@ -22,7 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('download', [FilesController::class, 'pdfDownload']);
 
 Route::post('project/create',[ProjectController::class,'create']);
-Route::get('project/getAll',[ProjectController::class,'getAll']);
+Route::get('projects',[ProjectController::class,'getAll']);
 Route::get('project/getById/{id}',[ProjectController::class,'getById']);
 Route::post('project/edit/{project}',[ProjectController::class,'edit']);
 Route::delete('project/delete/{id}',[ProjectController::class,'delete']);

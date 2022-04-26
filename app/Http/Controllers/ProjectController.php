@@ -57,9 +57,7 @@ class ProjectController extends Controller
     {
         $project = Project::paginate(15);
         if($project) {
-            return response()->json([
-                $project,
-                200]);
+            return $project;
         }else {
             return response()->json([
                 'statu' => 404,
