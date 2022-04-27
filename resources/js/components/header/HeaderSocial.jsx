@@ -6,7 +6,7 @@ import {FiGitlab} from 'react-icons/fi'
 const HeaderSocial = () => {
     return (
         <div className='header_social'>
-            <a href="www.linkedin.com/in/angela-rios29/" target="_blank"><BsLinkedin/></a>
+            <a href="https://www.linkedin.com/in/angela-rios29/" target="_blank"><BsLinkedin/></a>
             <a href="https://github.com/angieRi" target="_blank"><BsGithub/></a>
             <a href="https://gitlab.com/angie_ri" target="_blank"><FiGitlab/></a>
         </div>
