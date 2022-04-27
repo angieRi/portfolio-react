@@ -31,8 +31,8 @@ const  About =() => {
                         </article>
                     </div>
                     <p>Desarrolladora de aplicaciones web y estudiante de Ingeniería en
-                        Computación, actualmente me interesa trabajar donde pueda desarrollar mis
-                        habilidades, aportar mi experiencia con un equipo de trabajo grato, me gusta
+                        Computación, actualmente me interesa desarrollar mis habilidades,
+                        aportar mi experiencia con un equipo de trabajo grato, me gusta
                         aprender continuamente, sin miedos a los cambios, dispuesta a capacitarme y
                         trabajar con nuevas tecnologías.
                     </p>
