@@ -1,10 +1,10 @@
-<p align="center"><a href="" target="_blank"><img src="public/images/logo.png" width="100"></a></p>
+<p align="center"><a href="" target="_blank"><img src="logo.png" width="100"></a></p>
 <h2 align="center">Angela Rios</h2></p>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/angela-rios29/">Linkedin |</a>
 <a href="https://github.com/angieRi">GitHub |</a>
-<a href="https://gitlab.com/angie_ri"> GitHub</a>
+<a href="https://gitlab.com/angie_ri"> GitLab</a>
 </p>
 
 ## Portfolio Laravel-React
