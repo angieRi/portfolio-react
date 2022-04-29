@@ -23,10 +23,10 @@
     color: var(--color-primary);
 }
 
-.experience_content{
+.experience_content {
     display:grid;
     grid-template-columns:  1fr ;
-    row-gap:2rem;
+    row-gap: 2rem;
 }
 
 .experience_details {
@@ -34,32 +34,79 @@
     gap: 1rem;
 }
 
-.experience_details-icon {
+.experience_details-icon,.experience_details-icon-e {
     margin-top: 6px;
     color: var(--color-primary);
+
 }
-.experience_details-icon-e {
-    margin-top: 2px;
-    width: 14%;
-    color: var(--color-primary);
+.experience_details-icon-e > h4 {
+    font-size: 3rem;
+
 }
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
     .experience_container > div {
-        width: 80%;
-        padding: 2rem;
+        width: 90%;
+        padding: 1rem 1.5rem 1rem;
         margin: 0 auto;
     }
+
+    .experience_container > div h3 {
+        margin-bottom: 1rem;
+    }
+    .experience_content {
+        row-gap: 0.7rem;
+    }
+    .experience_details-icon-e {
+        width: 5%;
+        color: var(--color-primary);
+    }
+
 }
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .experience_container {
+        grid-template-columns: 1fr;
         gap: 1rem;
+
     }
     .experience_container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+        width: 85%;
+        padding: 1rem 2rem;
+    }
+    .experience_container > div h3 {
+        margin-bottom: 1rem;
+    }
+    .experience_content {
+        row-gap: 0.4rem;
+    }
+    .experience_details-icon-e {
+        width: 4.5%;
+    }
+    section > h2 {
+        margin: 1rem 0 2rem!important;
     }
 }
+@media screen and (max-width: 350px) {
+    .experience_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+    .experience_container > div {
+        width: 90%;
+        padding: 1rem 1rem;
+    }
+    .experience_container > div h3 {
+        margin-bottom: 0.6rem;
+    }
+    .experience_content {
+         row-gap: 0.3rem;
+     }
+    .experience_details-icon-e {
+        width: 9%;
+    }
+}
+

@@ -17,8 +17,8 @@ const  Contact =() => {
     };
     return(
         <section id='contact'>
-            <h5>Como me encuentras</h5>
-            <h2>Contactame</h2>
+            <h5>Mis datos de contacto</h5>
+            <h2>Contacto</h2>
             <div className="container contact_container">
                 <div className="contact_options">
                     <article className="contact_option">

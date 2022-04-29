@@ -9,7 +9,7 @@
 
 ## Portfolio Laravel-React
 
-Este trabajo está realizado con el framework Laravel del lado de backend, React del lado del frontend, 
+Este proyecto está realizado con el framework Laravel del lado de backend, React del lado del frontend, 
 MySql en la base de datos entre otras tecnologías, con ayuda de tutoriales integré React con laravel. <br>
 Esta página consta de las siguientes partes:
 
