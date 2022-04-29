@@ -23,7 +23,7 @@ Route::get('download', [FilesController::class, 'pdfDownload']);
 
 Route::post('project/create',[ProjectController::class,'create']);
 Route::get('projects',[ProjectController::class,'getAll']);
-Route::get('project/getById/{id}',[ProjectController::class,'getById']);
-Route::post('project/edit/{project}',[ProjectController::class,'edit']);
+Route::get('project/{id}',[ProjectController::class,'getById']);
+Route::put('project/edit/{id}',[ProjectController::class,'edit']);
 Route::delete('project/delete/{id}',[ProjectController::class,'delete']);
 Route::get('project/search',[ProjectController::class,'search']);
