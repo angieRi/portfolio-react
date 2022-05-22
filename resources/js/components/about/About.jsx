@@ -9,7 +9,7 @@ import {RiGitRepositoryLine} from 'react-icons/ri'
 const  About =() => {
     return(
         <section id='about'>
-            <h5>Me presento</h5>
+            <h5></h5>
             <h2>Acerca de mí</h2>
             <div className="container about_container">
                 <div className="about_content">
@@ -30,12 +30,14 @@ const  About =() => {
                             <small>++ repositorios con mis habilidades</small>
                         </article>
                     </div>
-                    <p>Desarrolladora de aplicaciones web y estudiante de Ingeniería en
-                        Computación, actualmente me interesa desarrollar mis habilidades,
-                        aportar mi experiencia con un equipo de trabajo grato, me gusta
-                        aprender continuamente, sin miedos a los cambios, dispuesta a capacitarme y
-                        trabajar con nuevas tecnologías.
-                    </p>
+                    <div>
+                        <p>Como desarrolladora de aplicaciones web me interesa trabajar donde pueda
+                            aportar mis habilidades y experiencia a un equipo de trabajo grato y profesional,
+                            me considero una persona proactiva, organizada, responsable que se mantiene
+                            actualizada que incorpora constantemente nuevas tecnologías, sin temor a los
+                            retos o cambios que puedan surgir.
+                        </p>
+                    </div>
                 </div>
                 </div>
             </section>

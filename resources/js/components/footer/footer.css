@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: #022e2e;
 }
 
 .footer_logo{
@@ -27,7 +27,7 @@ footer a {
 
 .footer_copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color:  #105a5f;
 }
 
 @media screen and(max-width: 600px) {

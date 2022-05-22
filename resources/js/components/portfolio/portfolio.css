@@ -4,9 +4,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
-
+h3 {
+    color: white;
+}
 .portfolio_item {
-    background: var(--color-bg-variant);
+    background: linear-gradient(var(--color-primary), rgba(71, 71, 143, 0.88));
     padding: 1.3rem;
     border-radius: 2rem;
     border:1px solid transparent;
@@ -31,12 +33,22 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+.img-project {
 
+    width:  100% !important;
+    height: 17rem !important;
+}
 @media screen and (max-width: 1024px) {
 
     .portfolio_container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+    }
+    .img-project {
+
+        width:  100% !important;
+        height: 15rem !important;
+        margin: 0 !important;
     }
 
 }
@@ -55,10 +67,7 @@
     .portfolio_item {
         padding: 0.7rem;
     }
-    img {
-        border-radius: 1rem;
-        width:  100% !important;
-    }
+
     .btn {
         padding: 0.4rem!important; ;
     }
@@ -79,10 +88,7 @@
     .portfolio_item > h3 {
         margin: 0.5rem 0 0.5rem;
     }
-    img {
-        border-radius: 1rem;
-        width:  100% !important;
-    }
+
 
 }
 

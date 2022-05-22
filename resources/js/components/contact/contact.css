@@ -12,7 +12,8 @@
 }
 
 .contact_option {
-    background: var(--color-bg-variant);
+    background: linear-gradient(var(--color-primary), rgba(71, 71, 143, 0.88));
+    padding: 1.3rem;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -27,6 +28,7 @@
 .contact_option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    color: white;
 }
 
 .contact_option a {
@@ -34,7 +36,9 @@
     display: inline-block;
     font-size: 0.8rem;
 }
-
+.contact_option h4, h5 {
+color: rgba(255, 255, 255, 1);
+}
 /*==========form==============*/
 
 form {

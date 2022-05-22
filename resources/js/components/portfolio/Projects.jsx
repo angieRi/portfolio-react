@@ -25,7 +25,7 @@ const Projects = () => {
                 projects?.data?.map((project,index ) => (
                         <article key={project.id} className="portfolio_item">
                             <div className="portfolio_item-image" >
-                                <img src={'http://127.0.0.1:8000/'+project.image } alt={project.title}/>
+                                <img src={'http://127.0.0.1:8000/'+project.image } alt={project.title} className="img-project"/>
                             </div>
                             <h3>{project.title}</h3>
                             <div className="portfolio_item-cta">

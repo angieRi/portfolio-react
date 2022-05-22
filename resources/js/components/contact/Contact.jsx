@@ -17,7 +17,7 @@ const  Contact =() => {
     };
     return(
         <section id='contact'>
-            <h5>Mis datos de contacto</h5>
+            <h5></h5>
             <h2>Contacto</h2>
             <div className="container contact_container">
                 <div className="contact_options">
@@ -37,7 +37,7 @@ const  Contact =() => {
                 {/*fin contacto opciones*/}
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Ingrese su nombre" required />
-                    <input type="email" name="name" placeholder="Ingrese su correo" required />
+                    <input type="email" name="email" placeholder="Ingrese su correo" required />
                     <textarea name="message" placeholder="Escriba su mensaje" rows="7" required ></textarea>
                     <button type="submit" className="btn btn-primary" >Envíar Mensaje</button>
                 </form>

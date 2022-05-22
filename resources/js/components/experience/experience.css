@@ -4,7 +4,7 @@
     gap: 2rem;
 }
 .experience_container > div {
-    background: var(--color-bg-variant);
+    background: linear-gradient(var(--color-primary), rgba(71, 71, 143, 0.88));
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -16,11 +16,16 @@
     border-color: var(--color-primary-variant);
     cursor:default;
 }
-
+.experience_container > div h4 {
+    color: #011c1c;
+}
+.experience_container > div:hover h4 {
+    color: white;
+}
 .experience_container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: white;
 }
 
 .experience_content {
@@ -36,7 +41,7 @@
 
 .experience_details-icon,.experience_details-icon-e {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: #9deeee;
 
 }
 .experience_details-icon-e > h4 {

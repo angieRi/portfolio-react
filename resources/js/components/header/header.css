@@ -3,6 +3,9 @@ header {
     padding-top: 5rem;
     overflow: hidden;
 }
+h1 {
+    color: white;
+}
 .header_container {
     text-align: center;
     height: 100%;
@@ -33,15 +36,26 @@ header {
 }
 /**========ME==**/
 .me {
-    background: linear-gradient(var(--color-primary),transparent);
-    width: 21rem;
-    height: 30rem;
+    background: linear-gradient(var(--color-primary), rgba(71, 71, 143, 0.88));
+    width: 50rem;
+    height: 35rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(30% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 1rem 1rem ;
     overflow:hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+
+
+}
+.perfil {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    float: right;
+    color: #f2f1f1;
+
 }
 /**=====scroll=====**/
 .scroll_down {
@@ -55,20 +69,26 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 115vh;
 
     }
     .me {
-
-        left: calc(50% - 11rem);
+        width:80%;
+        left: calc(40% - 15rem);
         margin-top:2rem;
         height: 27rem;
+        padding: 1.5rem;
 
+    }
+    .perfil {
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        width: 50%;
     }
 }
 @media screen and (max-width: 600px) {
     header {
-        height: 101vh;
+        height: 110vh;
     }
 
     .header_socials,
@@ -76,11 +96,13 @@ header {
         display: none;
     }
     .me {
-        left: calc(50% - 10.5rem);
+        left: calc(38% - 11rem);
         margin-top: 4rem;
         height: 23rem;
-        width: 19rem;
-
+        width: 85%;
+    }
+    .perfil {
+        display: none;
     }
 
 }
@@ -103,6 +125,5 @@ header {
         left: calc(50% - 8rem);
         margin-top: 4rem;
     }
-
 
 }

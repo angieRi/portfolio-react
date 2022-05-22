@@ -8,8 +8,8 @@
     gap: 1.5rem;
 }
 .about_card {
-    background:var(--color-bg-variant);
-    border:1px solid transparent;
+    background: linear-gradient(var(--color-primary), rgba(71, 71, 143, 0.88));
+    border: 1px solid transparent;
     padding:2rem;
     border-radius: 1rem;
     text-align:center;
@@ -29,6 +29,7 @@
 
 .about_card h5 {
     font-size: 0.95rem;
+    color: white;
 }
 
 .about_card small {
