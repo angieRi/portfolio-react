@@ -96,9 +96,9 @@ h1 {
         display: none;
     }
     .me {
-        left: calc(38% - 11rem);
+        left: calc(50% - 14rem);
         margin-top: 4rem;
-        height: 23rem;
+        height: 100%;
         width: 85%;
     }
     .perfil {
@@ -107,7 +107,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     header {
         height: 100vh;
         padding-top: 2rem;
@@ -121,9 +121,10 @@ h1 {
     }
     .me {
         width: 16rem;
-        height: 20rem;
-        left: calc(50% - 8rem);
+        height: 50%;
+        left: calc(45% - 7rem);
         margin-top: 4rem;
+
     }
 
 }

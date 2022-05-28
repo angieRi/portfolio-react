@@ -65,7 +65,7 @@
         margin: 3rem 2rem ;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
 
     .about_cards {
         grid-template-columns: 1fr;
