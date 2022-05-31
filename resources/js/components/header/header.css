@@ -107,7 +107,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     header {
         height: 100vh;
         padding-top: 2rem;
