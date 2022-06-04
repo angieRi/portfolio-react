@@ -7,7 +7,7 @@ import React, {useEffect,useState} from "react";
  */
 const Projects = () => {
 
-    const url="/api/projects"
+    const url="api/projects"
     const [projects,setProject] = useState([]);
 
     const fetchApi = async () => {

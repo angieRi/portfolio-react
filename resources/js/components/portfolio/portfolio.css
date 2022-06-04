@@ -1,4 +1,6 @@
-
+section {
+    height: 100%!important;
+}
 .portfolio_container {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
