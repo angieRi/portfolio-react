@@ -88,7 +88,7 @@ h1 {
 }
 @media screen and (max-width: 600px) {
     header {
-        height: 110vh;
+        height: 100vh;
     }
 
     .header_socials,
@@ -96,9 +96,9 @@ h1 {
         display: none;
     }
     .me {
-        left: calc(50% - 14rem);
+        left: calc(50% - 13.7rem);
         margin-top: 4rem;
-        height: 100%;
+        height: 70%;
         width: 85%;
     }
     .perfil {
@@ -120,9 +120,9 @@ h1 {
 
     }
     .me {
-        width: 16rem;
-        height: 50%;
-        left: calc(45% - 7rem);
+        width: 85%;
+        height: 50%!important;
+        left: calc(45% - 8rem);
         margin-top: 4rem;
 
     }
